@@ -1,3 +1,10 @@
+// Merge Sort - Divide and Conquer
+// The array is broken into smaller and smaller subarrays recursively, then combined.
+
+// MEDIUM (acceptable)
+// Time Complexity: O(n log n)
+// Space Complexity: O(n)
+
 function merge(array1, array2) {
     let merged = [];
 

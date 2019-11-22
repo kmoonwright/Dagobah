@@ -1,4 +1,14 @@
-// The simplest sorting algorithm that repeatedly swaps adjacent elements if they are in the wrong order.
+// The simplest sorting algorithm that repeatedly swaps adjacent elements 
+// if they are in the wrong order.
+
+// Bubbles LARGEST elements up to the end of the array.Checks if 
+// any adjacent elements are out of order and swaps them if they are. 
+// If we don't make any swaps during a pass, then everything must be 
+// already in order.
+
+// SLOW
+// Time Complexity: O(n ^ 2)
+// Space Complexity: O(1)
 
 function bubbleSort(array) {
     let swapped = true;
