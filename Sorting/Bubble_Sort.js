@@ -1,3 +1,5 @@
+// The simplest sorting algorithm that repeatedly swaps adjacent elements if they are in the wrong order.
+
 function bubbleSort(array) {
     let swapped = true;
 
