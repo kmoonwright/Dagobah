@@ -18,29 +18,70 @@
 //         left descendants <= n < right descendants
 //         Time complexity: O(log n)
 
-function BinarySearchTree(val) {
-    this.value = val;
-    this.left = null;
-    this.right = null;
+class TreeNode {
+    constructor(val) {
+        this.val = val;
+        this.left = null;
+        this.right = null;
+    }
 }
 
-BinarySearchTree.prototype.insert = function (value) {
-    let subtree = value < this.value ? 'left' : 'right';
-    if (this[subtree]) {
-        this[subtree].insert(value);
-    } else {
-        this[subtree] = new BinarySearchTree(value);
-    }
-};
 
-BinarySearchTree.prototype.contains = function (value) {
-    if (value === this.value) {
-        return true;
+class BinarySearchTree {
+    constructor() {
+        this.root = null;
     }
-    let subtree = value < this.value ? 'left' : 'right';
-    if (this[subtree]) {
-        return this[subtree].contains(value);
-    } else {
+
+    insert(val, root = this.root) {
+        const newNode = new TreeNode(val);
+        if (!root) {
+            this.root = newNode;
+            return;
+        }
+        if (val < root.val) {
+            if (!root.left) {
+                root.left = newNode;
+            } else {
+                this.insert(val, root.left)
+            }
+        } else {
+            if (!root.right) {
+                root.right = newNode;
+            } else {
+                this.insert(val, root.right)
+            }
+        }
+    }
+
+    searchRecur(val, root = this.root) {
+        if (!root) return false;
+
+        if (val < root.val) {
+            return this.searchRecur(val, root.left)
+        } else if (val > root.val) {
+            return this.searchRecur(val, root.right)
+        } else {
+            return true;
+        }
+    }
+
+    searchIter(val, root = this.root) {
+        if (!this.root) return false;
+
+        while (root) {
+            if (val === root.val) {
+                return true;
+            } else if (val < root.val) {
+                root = root.left;
+            } else {
+                root = root.right;
+            }
+        }
         return false;
     }
+}
+
+module.exports = {
+    TreeNode,
+    BinarySearchTree
 };
