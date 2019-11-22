@@ -1,4 +1,14 @@
 SORTING Algorithms arranged by Big O
+Bubble Sort - O(n^2)
+Selection Sort - O(n^2)
+Insertion Sort - O(n^2)
+
+Merge Sort - O(n log n)
+Quick Sort - O(n log n)
+
+Radix Sort - O(n log n)
+Counting Sort - O(n + k)
+
 
 
 SLOW
@@ -18,7 +28,7 @@ Insertion Sort
 	Space Complexity: O(1)
 
 
-MEDIUM
+MEDIUM - Acceptable
 Merge Sort - Divide and Conquer
 	The array is broken into smaller and smaller subarrays recursively, then combined.
 	Time Complexity: O(n log n)
