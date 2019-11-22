@@ -1,3 +1,11 @@
+// Radix Sort - Integer Sorting
+
+// FAST
+// Time Complexity: O(n log n)
+// Space Complexity: O(n + k)
+//     Memory consumed relative to size of input array and length of longest integer
+
+
 const getDigitFrom = (num, place) => Math.floor(Math.abs(num) / Math.pow(10, place)) % 10;
 
 const getIntLength = (num) => (num === 0) ? 1 : Math.floor(Math.log10(Math.abs(num))) + 1;

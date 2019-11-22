@@ -1,3 +1,13 @@
+// Selection Sort
+// Similar to Bubble Sort, but selects SMALLEST elements of the array and places them
+// at the beginning of the array in sorted position.Only swaps once our inner loop has 
+// completely finished traversing the array, thus is optimized to make the least number of swaps.
+
+// SLOW
+// Time Complexity: O(n ^ 2)
+// Space Complexity: O(1)
+
+
 function swap(arr, index1, index2) {
     let temp = arr[index1];
     arr[index1] = arr[index2];
