@@ -11,6 +11,8 @@
 // with respect to the next element, swap them. If any swaps are made before
 // reaching the end of the array, repeat the process. Otherwise, return the
 // sorted array.
+
+
 const defaultCallback = (num1, num2) => {
   if (num1 < num2) {
     return -1;

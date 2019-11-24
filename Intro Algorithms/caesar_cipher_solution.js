@@ -10,6 +10,8 @@
 // Examples: 
 // caesarCipher(“abc”, 2) => “cde”
 // caesarCipher(“xyz”, 1) => “yza"
+
+
 function caesarCipher(str, shift) {
   const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
   let encoded = "";

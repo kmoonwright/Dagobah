@@ -6,6 +6,8 @@
 //
 // You may wish to use a helper function, `digitalRootStep(num)` which performs
 // one step of the process.
+
+
 function digitalRoot(num) {
   while (num > 10) {
     num = digitalRootStep(num);

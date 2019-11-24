@@ -18,6 +18,8 @@
 //
 // To get a feel for base conversion play around on this site: https://www.mathsisfun.com/numbers/convert-base.php
 // For more information on base conversion refer here: https://www.purplemath.com/modules/numbbase.htm
+
+
 function baseConverter(n, b) {
   if ([0, 1].includes(n)) return n.toString()
 
