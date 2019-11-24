@@ -25,6 +25,7 @@ function merge(array1, array2) {
     return merged;
 }
 
+
 function mergeSort(array) {
     if (array.length <= 1) {
         return array;

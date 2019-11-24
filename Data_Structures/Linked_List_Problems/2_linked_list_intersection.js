@@ -91,6 +91,7 @@ function linkedListIntersection(list1, list2) {
   return null;
 }
 
+
 // Helper to find a list's length
 function getLinkedListLength(listNode) {
   if (listNode.next === null) {
