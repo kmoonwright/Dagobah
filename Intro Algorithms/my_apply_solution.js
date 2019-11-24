@@ -3,6 +3,8 @@
 // thepassed-in object as `this`, also passing the arguments array. Do NOT use the
 // the built-in `Function.prototype.apply` or `Function.prototype.call` methods 
 // in your implementation.
+
+
 Function.prototype.myApply = function (context, args = []) {
   return this.bind(context)(...args);
 };
