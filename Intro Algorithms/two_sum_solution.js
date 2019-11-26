@@ -6,6 +6,8 @@
 // "dictionary-wise":
 // [0, 2] before [1, 2] (smaller first elements come first)
 // [0, 1] before [0, 2] (then smaller second elements come first)
+
+
 Array.prototype.twoSum = function () {
   const pairs = [];
   for (let i = 0; i < this.length - 1; i++) {
