@@ -4,6 +4,8 @@
 // built-in `Array.prototype.filter` or `Array.prototype.forEach` methods.
 // ex.
 // [1,2,3].myReject( (el) => el > 2 ) => [1, 2]
+
+
 Array.prototype.myReject = function (callback) {
   const selection = [];
 

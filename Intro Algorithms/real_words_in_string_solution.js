@@ -3,6 +3,8 @@
 // sorted alphabetically. This method does NOT return any duplicates.
 
 // Solution 1
+
+
 String.prototype.realWordsInString = function (dictionary) {
   const realWords = [];
 

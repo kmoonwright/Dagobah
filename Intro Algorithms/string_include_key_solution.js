@@ -4,6 +4,8 @@
 //
 // stringIncludeKey("cadbpc", "abc") => true
 // stringIncludeKey("cba", "abc") => false
+
+
 function stringIncludeKey(string, key) {
   if (!key.length) return true;
   // if(key.length === 0) return true;

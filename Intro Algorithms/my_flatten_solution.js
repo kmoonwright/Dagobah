@@ -2,6 +2,8 @@
 // multi-dimensional array into a one-dimensional array.
 // Example:
 // [["a"], "b", ["c", "d", ["e"]]].myFlatten() => ["a", "b", "c", "d", "e"]
+
+
 Array.prototype.myFlatten = function () {
   let flattened = [];
 

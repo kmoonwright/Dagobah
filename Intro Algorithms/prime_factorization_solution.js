@@ -2,6 +2,8 @@
 // factorization of a given number. Assume num > 1
 //
 // primeFactorization(12) => [2,2,3]
+
+
 function primeFactorization(num) {
   // Base case - 1 is not a prime so we return an empty array here
   if (num === 1) return [];

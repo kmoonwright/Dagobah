@@ -15,6 +15,8 @@
 //  3. Treat `qu` at the start of a word as a singular consonant.
 //      ex1. `queen` => `eenquay`
 //      ex2. `square` => `aresquay`
+
+
 function pigLatinify(sentence) {
   const words = sentence.split(' ');
   const translateWord = (word) => {

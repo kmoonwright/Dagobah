@@ -9,6 +9,8 @@
 // Choose a pivot element, then iterate over the rest of the array, moving the 
 // remaining elements on to the appropriate side of the pivot. Recursively quick 
 // sort each side of the array until a base case is reached. 
+
+
 Array.prototype.quickSort = function (func) {
   if (this.length < 2) return this;
 
