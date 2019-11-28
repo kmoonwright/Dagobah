@@ -10,7 +10,6 @@ Radix Sort - O(n log n)
 Counting Sort - O(n + k)
 
 
-
 SLOW
 Bubble Sort
 	Bubbles LARGEST elements up to the end of the array. Checks if any adjacent elements are out of order and swaps them if they are. If we don't make any swaps during a pass, then everything must be already in order.
