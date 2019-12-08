@@ -84,19 +84,19 @@ class StackQueue {
     }
 
     enqueue(val) {
-    let newNode = new Node(val);
-    if (this.length === 0) {
-        this.front = newNode;
-        this.back = newNode;
-        this.length += 1;
-    } else {
-        // let oldNode = this.back;
-        this.back.next = newNode
-        this.back = newNode;
-        // newNode.next = oldNode;
-        this.length += 1;
-    }
-    return this.length;
+        let newNode = new Node(val);
+        if (this.length === 0) {
+            this.front = newNode;
+            this.back = newNode;
+            this.length += 1;
+        } else {
+            // let oldNode = this.back;
+            this.back.next = newNode
+            this.back = newNode;
+            // newNode.next = oldNode;
+            this.length += 1;
+        }
+        return this.length;
     }
 
     dequeue() {
