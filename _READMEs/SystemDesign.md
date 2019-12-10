@@ -33,3 +33,41 @@ Key Points:
 	Security & Privacy - Authentication
 	Cost-effectiveness
 		Is there an alternative solution that is less costly? What are the cost advantages and disadvantages with this solution?
+
+
+	
+SYSTEM DESIGN INTERVIEW TOPICS
+	Vertical vs. Horizontal Scaling
+	CAP Theorem
+	ACID vs BASE
+	Partitioning / Sharding Data
+		Consistent hoisting
+	Optimistic vs. Pessimistic Locking
+	Strong vs Eventual consistency
+	Relational DB vs. NoSQL
+	Types of NoSQL
+		○ Key value
+		○ Write column
+		○ Document based
+		○ Graph board
+	Caching
+	Data Center/Racks/Hoists
+	CPU/Memory/Harddrive/Network Bandwidth
+	Random vs. Sequential read/write on disk
+
+	http vs. http2 vs. websockets
+	TCP/IP model
+
+TCP vs. USDP
+	Bad lookup
+	Https & TLS
+	Public Key infrastructure & certificate Authority
+	Symetric vs. asymmetric key
+	Load Balancer -> L4 vs. L7
+	CDNs & Edge
+	Bloom filters and count-min sketch
+	Paxos - Consensus over distributed oreiented design
+	Visual machines & containers
+	Publishes-subscriber
+	Map reduce
+	Multithreading, concurrency, locks, synchronization, CAS
