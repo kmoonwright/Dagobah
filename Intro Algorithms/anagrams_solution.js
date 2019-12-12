@@ -44,6 +44,8 @@ function buildLetterCount(string) {
 
 
 
+
+
 function anagrams(str1, str2) {
   if (str1.length !== str2.length) return false;
   const arr1 = str1.split('');
