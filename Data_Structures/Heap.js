@@ -11,6 +11,16 @@
 //         node is greater than or equal to the value of its parent. The same must be 
 //         recursively true for all sub-trees in the Binary Tree.
 
+// Time Complexity Analysis
+// insert: O(log(n))
+// deleteMax: O(log(n))
+// Recall that our heap will be a complete / balanced tree.This means it 's height is log(n) 
+// where n is the number of items. Both insert and deleteMax have a time complexity of log(n) 
+// because of siftUp and siftDown respectively.
+
+// Space Complexity Analysis
+// O(n), since we use a single array to store heap data.
+
 function isMaxHeap(array, idx = 1) {
     for (idx + 1; idx < array.length - 1; idx++) {
         let leftChild = array[idx * 2];
