@@ -1,3 +1,8 @@
+  // - distance tells us the numerical distance of optimal paths from the source
+  // to any node 
+  // - previous tells us the order of nodes to travel if we want to take an optimal 
+  // path from the source to any node
+
 function dijkstras(graph, source) {
   let distance = {};
   for (let node in graph) {
