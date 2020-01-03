@@ -1,4 +1,6 @@
-# Master Study Guide
+# Welcome to Dagobah
+
+Dagobah is a remote planet, covered in thick swampy terrain and everlasting mist.
 
 ## Workflow
 
