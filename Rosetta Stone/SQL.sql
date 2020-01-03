@@ -1,1 +1,9 @@
 -- GENERAL GUIDE
+
+
+-- SELECT
+
+-- WHERE
+
+-- GROUP
+-- ORDER BY
