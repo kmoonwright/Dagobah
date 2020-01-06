@@ -52,3 +52,40 @@ function greeter(person: Person) {
 let user = new Student("Jane", "M.", "User");
 
 document.body.textContent = greeter(user);
+
+
+// Running TypeScript webapp with HTML
+  // this will run the 'greeter.js' file
+<!DOCTYPE html >
+<html>
+
+  <head>
+    <title>TypeScript Greeter</title>
+  </head>
+
+  <body>
+    <script src="greeter.js"> </script>
+  </body>
+
+</html>
+
+
+
+// Review
+class Student {
+  fullname: string;
+  constructor(public firstname, public middleinitial, public lastname) {
+    this.fullname = firstname + " " + middleinitial + " " + lastname;
+  }
+}
+
+interface Person {
+  firstname: string;
+  lastname: string;
+}
+
+function greeter(person : Person) {
+  return "Hello " + person.firstname + " " + person.;
+}
+
+var user = new Student("Jane", "M.", "Username");
