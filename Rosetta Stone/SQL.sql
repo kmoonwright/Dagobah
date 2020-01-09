@@ -10,6 +10,15 @@
   -- 8. LIMIT/OFFSET
 
 
+SELECT DISTINCT column
+FROM myTable
+JOIN anotherTable ON myTable.column = anotherTable.COLUMN
+WHERE constrantExpression
+GROUP BY column
+HAVING constraintExpression
+ORDER BY column ASC/DESC
+LIMIT count 
+OFFSET count
 
 
 -- EXAMPLE:
@@ -20,10 +29,31 @@ GROUP BY something
 HAVING count(*) > 1
 ORDER BY ASC or DESC
 
+-- Type of JOINS
+    --NOTE: JOIN defaults to INNER JOIN
+-- INNER JOIN
+  SELECT * FROM TableA
+  INNER JOIN TableB
+  ON TableA.name = TableB.name
 
--- SELECT
+-- FULL OUTER Join
+  SELECT *
+  FROM TableA
+  FULL OUTER JOIN TableB
+  ON TableA.name = TableB.name
 
--- WHERE
+-- Unique Records
+  SELECT *
+  FROM TableA
+  WHERE TableA.id IS null
+  OR TableB.id IS null
 
--- GROUP
--- ORDER BY
+-- Left OUTER JOIN
+  SELECT * FROM TableA
+  LEFT OUTER JOIN TableB
+  ON TableA.name = TableB.name
+
+-- Left w/ exclusion
+  SELECT *
+  FROM TableA
+  WHERE TableB IS null
