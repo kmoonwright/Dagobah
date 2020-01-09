@@ -10,8 +10,15 @@
   -- 8. LIMIT/OFFSET
 
 
+
+
 -- EXAMPLE:
-SELECT
+SELECT column1, column2...
+FROM table1
+WHERE column4 = 1 AND column5 = 5
+GROUP BY something
+HAVING count(*) > 1
+ORDER BY ASC or DESC
 
 
 -- SELECT
