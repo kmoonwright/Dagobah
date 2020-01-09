@@ -1,0 +1,10 @@
+.className {
+    display: flex;
+    justify-content: center;
+}
+
+.className {
+    .embeddedClassName {
+        
+    }
+}
