@@ -76,3 +76,46 @@ for name in fav_numbers.keys():
 # Looping through all values
 for number in fav_numbers.values():
     print(str(number) + ' is a favorite')
+
+
+
+# CONDITIONALS
+equals
+x == 42
+
+not equal
+x != 42
+
+greater than or equal to
+x > 42
+x >= 42
+
+less than or equal to 
+x < 42
+x <= 42
+
+
+# BOOLEANS
+game_active = True
+can_edit = False
+
+
+# Conditional Tests
+'trek' in bikes
+'surly' not in bikes
+
+
+# IF STATEMENTS
+if age < 4:
+    ticket_price = 0
+elif age < 18:
+    ticket_price = 10
+else:
+    ticket_price = 15
+
+
+# WHILE LOOP
+current_value = 1
+while current_value <= 5:
+    print(current_value)
+    current_value += 1
