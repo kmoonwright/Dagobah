@@ -119,3 +119,16 @@ current_value = 1
 while current_value <= 5:
     print(current_value)
     current_value += 1
+
+
+# USER INPUT
+
+# Prompting for a value
+name = input("What's your name? ")
+print("Hello, " + name + "!")
+# Prompting for a numerical input
+name = input("What's your name? ")
+print("Hello, " + name + "!")
+
+pi = input("What's the value of pi? ")
+pi = float(pi)
