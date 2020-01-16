@@ -9,3 +9,8 @@ Scripting Languages
 JavaScript
 Python
 Ruby
+TypeScript
+Swift (iOS)
+
+DB Languages
+SQL
