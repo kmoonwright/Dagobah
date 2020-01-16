@@ -1,10 +1,11 @@
 # Language Comparisons
 A master list of differences between popular programming languages for reference
 
-VARIABLES
+Structural Languages
+HTML5
+CSS3
 
-FUNCTIONS (METHODS)
-
-CLASSES
-
-OBJECTS (HASHES)
+Scripting Languages
+JavaScript
+Python
+Ruby
